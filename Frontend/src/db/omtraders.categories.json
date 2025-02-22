@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "673d693eff106dfef5f1129a"
+  },
+  "name": "POF shrink film",
+  "__v": 0,
+  "attributes": {
+    "micron": [
+      15,
+      19,
+      25
+    ],
+    "inch": [
+      6,
+      30
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "673d69ffff106dfef5f1129b"
+  },
+  "name": "BOPP Self Adhesive Tape",
+  "__v": 0,
+  "attributes": {
+    "mm": [
+      72,
+      48,
+      24
+    ],
+    "meter": [
+      65,
+      110
+    ],
+    "color": [
+      "brown",
+      "transparent",
+      "printing"
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "673d6a71ff106dfef5f1129c"
+  },
+  "name": "Box Strapping Role",
+  "__v": 0,
+  "attributes": {
+    "type": [
+      "Virgin",
+      "NV",
+      "Rajkotwala"
+    ],
+    "kg": [
+      7,
+      4,
+      9
+    ]
+  }
+}]

@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "673cc70645787777800aafc2"
+  },
+  "name": "Devansh Patel",
+  "email": "devansh@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$MGuvzfkCylhCUryaFg5p0g$q5E7bOT7Pz4Qg5dqaolqhYnbih04BxA836GgQzq5f5w",
+  "role": "ADMIN",
+  "delivery_address": "OM",
+  "createdAt": {
+    "$date": "2024-11-19T17:12:38.611Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-19T17:12:38.611Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673cd929df68007e3b7e3720"
+  },
+  "name": "Rishi",
+  "email": "rishi@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$/UKaHhhY/ZZP2Mxru6mhIg$5Wv3hqs0SDtXzKLlG1pANAvII0DejDFSIGEU8rh9N34",
+  "role": "DELIVERY_AGENT",
+  "delivery_address": "OM",
+  "createdAt": {
+    "$date": "2024-11-19T18:30:01.746Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-19T18:30:01.746Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673f3198c2e38b3895b2e981"
+  },
+  "name": "Rishi Kapadia",
+  "email": "example@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$d1pvlHZhc4UN/dkAjG+K+w$r9r9sreG0z2J+E3qB5GItHeLGtcnfCR1MRPo0J/iJ0s",
+  "role": "CUSTOMER",
+  "delivery_address": "OM",
+  "createdAt": {
+    "$date": "2024-11-21T13:11:52.193Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-21T13:11:52.193Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673f3509f1c82d1022219720"
+  },
+  "name": "Rishi Kapadia",
+  "email": "primeeveedio@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$ytuf9XugEEzM2j15Y3WoJQ$pAAK1IEE75t8VtNts7azcQmcJxWelr8V5Rylc7cPq8M",
+  "role": "ADMIN",
+  "delivery_address": "OM",
+  "createdAt": {
+    "$date": "2024-11-21T13:26:33.337Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-22T13:50:16.612Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6740cc5347f0b8ac833ec549"
+  },
+  "name": "Rishi Kapadia",
+  "email": "rishikapadia05@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$kRHKekNHZhLkU0ClMmnJCQ$y1udLIJWBZTaftUJbnOP8p9DblRBls3rCEk1RdUbIpI",
+  "role": "DELIVERY_AGENT",
+  "delivery_address": "OM",
+  "createdAt": {
+    "$date": "2024-11-22T18:24:19.932Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-22T18:24:19.932Z"
+  },
+  "__v": 0
+}]

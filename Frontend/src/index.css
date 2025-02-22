@@ -1,0 +1,162 @@
+/* Sidebar Open/Close Transition */
+.sidebar-open {
+  width: 250px !important;
+}
+
+.sidebar-closed {
+  width: 60px !important;
+}
+
+.sidebar-closed .nav-link {
+  display: none;
+}
+
+/* Hamburger Menu Icon */
+button {
+  border: none;
+  background: transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Style changes for dark and light mode */
+
+/* Navigation link style */
+.nav-link {
+  color: inherit;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-link:hover {
+  color: #f1c40f;
+}
+
+/* Admin Photo */
+img[role="button"] {
+  border: 2px solid #ddd;
+  transition: border 0.3s;
+}
+
+img[role="button"]:hover {
+  border: 2px solid #f1c40f;
+}
+
+/* Dark Mode Styling */
+.bg-dark .dropdown-menu {
+  background-color: #343a40;
+  color: white;
+}
+
+.bg-dark .dropdown-item {
+  color: white;
+}
+
+.bg-dark .dropdown-item:hover {
+  background-color: #495057;
+}
+
+/* Light Mode Styling */
+.bg-light .dropdown-menu {
+  background-color: #ffffff;
+  color: black;
+}
+
+.bg-light .dropdown-item {
+  color: black;
+}
+
+.bg-light .dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Horizontal Rule Styling */
+.hr-overview {
+  border-top: 2px solid;
+  margin-top: 1rem;
+}
+
+/* Light Mode */
+.light-mode .hr-overview {
+  border-color: #ddd;
+}
+
+/* Dark Mode */
+.dark-mode .hr-overview {
+  border-color: #495057;
+}
+
+/* For dark mode buttons */
+.dark-mode .btn {
+  background-color: #343a40;
+  color: #e0e0e0;
+  border: 1px solid #495057;
+}
+
+hr {
+  margin: 0;
+}
+
+.dark-mode .btn:hover {
+  background-color: #495057;
+  color: #ffffff;
+}
+
+.light-mode .btn {
+  background-color: #f8f9fa;
+  color: #343a40;
+  border: 1px solid #ddd;
+}
+
+.light-mode .btn:hover {
+  background-color: #e2e6ea;
+  color: #343a40;
+}
+
+/* For dark mode icons */
+.dark-mode .bi {
+  color: #f1f1f1;
+}
+
+.light-mode .bi {
+  color: #343a40;
+}
+
+/* Navbar Dark Mode */
+.navbar-dark-mode {
+  background-color: #18283e;
+  /* Set dark mode navbar color to #1b2533 */
+  color: #e0e0e0;
+  /* Light text for the navbar */
+}
+
+/* Navbar Dark Mode Links */
+.navbar-dark-mode .nav-link {
+  color: #e0e0e0;
+  /* Set navbar link color to light */
+}
+
+.navbar-dark-mode .nav-link:hover {
+  color: #f1c40f;
+  /* Hover color for navbar links */
+}
+
+
+
+
+
+
+/* new cssss */
+body {
+  background-color: #111d2e;
+}
+
+
+
+/* mainBackgroundColor:#111d2e */
+/* slidebarBackgroundColor:18283e */
+
+
+

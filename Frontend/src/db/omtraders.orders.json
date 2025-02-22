@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "673f78a86188f8a55af53cc7"
+  },
+  "product": {
+    "$oid": "673e30fb2f8d913d97f496cf"
+  },
+  "quantity": 4,
+  "customer": {
+    "$oid": "673f3509f1c82d1022219720"
+  },
+  "orderStatus": "Approved",
+  "createdAt": {
+    "$date": "2024-11-21T18:15:04.510Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-22T18:19:02.302Z"
+  },
+  "__v": 0
+}]
