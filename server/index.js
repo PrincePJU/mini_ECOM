@@ -26,7 +26,7 @@ if (!mongoURI) {
 
 app.use(cookieParser());
 app.use(cors({
-    origin: 'http://localhost:3000', // React frontend origin
+    origin: 'https://ayus-killz-front.onrender.com', // React frontend origin
     credentials: true, // Allow cookies
 }));
 
