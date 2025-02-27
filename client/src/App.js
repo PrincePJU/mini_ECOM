@@ -17,7 +17,7 @@ function App() {
 
 
   // please eneter in env file path for apiBaseUrl
-  const apiBaseUrl = "http://localhost:8000"
+  const apiBaseUrl = "https://ayus-killz.onrender.com"
 
   useEffect(() => {
     const token = localStorage.getItem("authToken");
