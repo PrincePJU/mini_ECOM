@@ -37,6 +37,7 @@ connectMongoDB(mongoURI)
         console.error('MongoDB Connection Error:', err);
         process.exit(1);
     });
+    
 
 // Middlewares
 app.use(express.urlencoded({ extended: false }));
@@ -48,11 +49,17 @@ app.use(express.static('public'));
 // Views
 app.set('view engine', 'ejs');
 
+// Default route for testing
+app.get("/", (req, res) => {
+    res.send("API is running...");
+});
+
 // Routes
 app.use('/user', userRoute);
 app.use('/customer', restrictTo(['CUSTOMER']), customerRoute);
 app.use('/admin', restrictTo(['ADMIN', 'CUSTOMER']), adminRoute);
 app.use('/add-geo', restrictTo(['ADMIN']), geoRoute);
 app.use('/stats', restrictTo(['ADMIN']), statRoute);
+
 
 server.listen(port, () => console.log("Server running on port", port));
